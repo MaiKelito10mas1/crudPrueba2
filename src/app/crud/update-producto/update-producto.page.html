@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Actualizar Producto</ion-title>
+    <ion-buttons slot="end">
+      <ion-back-button text="Atras"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">Nombre</ion-label>
+      <ion-input type="text" name="txtNombre" [(ngModel)]="producto.nombre" required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Precio</ion-label>
+      <ion-input type="number" name="txtNumber" [(ngModel)]="producto.precio"  required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Descripcion</ion-label>
+      <ion-input type="text" name="txtDescripcion" [(ngModel)]="producto.descripcion"  required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Imagen</ion-label>
+      <ion-input type="url" name="txtImagen" [(ngModel)]="producto.imagen"  required placeholder="Debes ingresar una Url"></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="actualizarProducto()"  expand="block" color="warning">Actualizar</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+
+</ion-content>

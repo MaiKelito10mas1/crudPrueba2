@@ -1,0 +1,32 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Marihuana",
+      "precio": 6,
+      "descripcion": "Producto sirve para levitar, da un pequeño deBuff de mareo, pero nada que el tiempo no solucione.",
+      "imagen": "https://static.dw.com/image/16990990_401.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Cocaina",
+      "precio": 10000,
+      "descripcion": "Producto te pone como piedra, da un gran deBuff de no poder hablar, te rompe las narices.",
+      "imagen": "https://img.freepik.com/fotos-premium/bolsa-polvo-droga-cocaina-dos-lineas-heroina-billete-dolar-retorcido_123211-510.jpg?w=2000"
+    },
+    {
+      "id": 3,
+      "nombre": "Pasta Base",
+      "precio": 15000,
+      "descripcion": "Producto de dudosa procedencia, recomendable no ingerir en grandes cantidades (leer instrucciones).",
+      "imagen": "https://www.adictalia.es/wp-content/uploads/2022/04/crack-3-1024x596.jpg"
+    },
+    {
+      "nombre": "Tussy",
+      "precio": 10000,
+      "descripcion": "Un tussaso revive a veces, otras mata. Preparate.",
+      "imagen": "http",
+      "id": 4
+    }
+  ]
+}
